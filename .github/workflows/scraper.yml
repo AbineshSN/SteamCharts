@@ -25,4 +25,4 @@ jobs:
       - name: Run Scraper
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}  # Secure MongoDB Connection
-        run: python steam_scraper.py
+        run: python3 steam_Scraper.py
